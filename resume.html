@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>RESUME</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.js">
+</head>
+<body>
+<center>
+<h1> Enter details  for your Resume</h1>
+<form action='db1.php' method='post' >
+<h2>General Details</h2>
+<table>
+ <tr><td>Name: </td><td><p><input type='text' name='name'></p></td></tr>
+ <tr><td>Cell: </td><td><p><input type='num' name='cell'></p></td></tr>
+ <tr><td>Email: </td><td><p><input type='text' name='email'></p></td></tr>
+</table>
+
+
+<h1>Tenth Details</h1>
+<table>
+  <tr><td>School Name: </td><td><p><input type='text' name='sname'></p></td></tr>
+ <tr><td>Year of passing: </td><td><p><input type='num' name='yop'></p></td></tr>
+ <tr><td>GPA: </td><td><p><input type='text' name='gpa'></p></td></tr>
+</table>
+
+
+<h1>Intermediate Details</h1>
+<table>
+  <tr><td>College name: </td><td><p><input type='text' name='cname'></p></td></tr>
+  <tr><td>Year of passing: </td><td><p><input type='number' name='yop2'></p></td></tr>
+  <tr><td>Percentage: </td><td><p><input type='text' name='per'></p></td></tr>
+</table>
+
+
+<h1>BTech Details</h1>
+<table>
+  <tr><td>Year of joining: </td><td><p><input type='number' name='yoj'></p></td></tr>
+  <tr><td>College Name: </td><td><p><input type='text' name='cname1'></p></td></tr>
+ <tr><td>Year of passing: </td><td><p><input type='number' name='yop3'></p></td></tr>
+ <tr><td>Aggregate: </td><td><p><input type='text' name='agg'</p></td></tr>
+</table>
+
+
+<h1>Skills</h1>
+<table>
+  <tr><td>Languages:</td> <td><p>C <input type='checkbox' name='lang' value='C'>
+C++ <input type='checkbox' name='lang' value='C++'>
+JAVA <input type='checkbox' name='lang' value='java'></p></td></tr>
+ <tr><td>GRE </td><td><p><input type='number' name='gre'></p></td></tr>
+ <tr><td>GATE </td><td><p><input type='number' name='gate'></p></td></tr>
+</table>
+
+
+<h1>Achievements</h1>
+<table> 
+<tr><td>Ach1: </td><td><p><input type='text' name='ach1'></p></td></tr>
+<tr><td>Ach2: </td><td><p><input type='text' name='ach2'></p></td></tr>
+</table>
+
+<h1>PersonalDetails</h1>
+<table>
+ <tr><td>Father name: </td><td><p><input type='text' name='fname'></p></td></tr>
+ <tr><td>Mother name: </td><td><p><input type='text' name='mname'></p></td></tr>
+ <tr><td>DOB: </td><td><p><input type='date' name='dob'></p></td></tr>
+ <tr><td> Address: </td><td><p><input type='textarea' name='add'></textarea></p></td></tr>
+</table>
+ 
+<p><input type='submit' name='submit' value='Preview'>&nbsp;&nbsp;&nbsp;<input type='reset' name='reset' value='Clear'></p>
+</form>
+</center>
+</body>
+</html>
